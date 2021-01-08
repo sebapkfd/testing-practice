@@ -1,5 +1,9 @@
 const capitalize = (str) => {
-    return 'xd'
+    if (str.length === 0){
+        return ''
+    }
+    const aux = str.toLowerCase();
+    return aux.charAt(0).toUpperCase() + aux.slice(1);
 }
 
 export default capitalize;

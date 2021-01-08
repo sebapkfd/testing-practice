@@ -1,9 +1,5 @@
 import capitalize from '../codes/capitalize';
 
-test('xd to be xd', () => {
-    expect(capitalize('xd')).toBe('xd');
-})
-
 test('SeBaStIaN to be Sebastian', () =>{
     expect(capitalize('SeBaStIaN')).toBe('Sebastian');
 })
