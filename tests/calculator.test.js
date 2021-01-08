@@ -1,6 +1,6 @@
-import { add, sub, mult, div } from './calculator';
+import { add, sub, mult, div } from '../codes/calculator';
 
-test(' 1 + 2 to equal 3', () => {
+test('1 + 2 to equal 3', () => {
     expect(add(1, 2)).toEqual(3);
 });
 

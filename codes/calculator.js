@@ -8,4 +8,4 @@ const div = (a, b) => {
     return (b === 0) ? null: a/b;
 }
 
-export { add, sub, mult, div}
+export { add, sub, mult, div }
